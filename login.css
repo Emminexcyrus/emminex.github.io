@@ -1,0 +1,149 @@
+.logo{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 9px;
+    border-radius: 50%;
+}
+body{
+    background-image: url(logo.jpg);
+    font-size: 1.1em;
+    background-size: cover;
+    color: white;
+}
+form{
+    border-right: 4px;
+    border-bottom: 4px;
+    border-left: 4px;
+    border-top: 4px;
+    border-color: white;
+    align-content: center
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    margin-top: 2px;
+    margin: 3;
+    background-color: dimgray;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li {
+    display: block;
+    padding: 14px 16px;
+    background-color: dimgray;
+}
+li a{
+    text-decoration-line: none;
+}
+li:hover{
+    background-color: black
+}
+.active{
+    background-color:antiquewhite
+}
+a:link {
+    background-color: transparent;
+    color: grey;
+}
+a:visited{
+    color: grey;
+}
+.login{
+    width: 400px;
+    height: 710px;
+    margin-top: 20%;
+    margin-bottom: 6%;
+    background-color: black;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 10%;
+    opacity: .7;
+    display: flex;
+    flex-wrap: wrap;
+}
+input[ type=text ]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 50px 1px 1px 50px;
+    border: 2px;
+    border-radius: 8px 0;
+    color: white;
+    font-size: 14.6px;
+}
+input[ type=text ]:focus{
+    background-color: grey;
+}
+input[ type=Email ]:focus{
+    background-color: grey;
+}
+input[ type=Email ]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 50px 1px 1px 50px;
+    border: 2px;
+    border-radius: 8px 0;
+}
+input[ type=date ]{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 50px 1px 1px 50px;
+    border: 2px;
+    border-radius: 8px 0;
+}
+input[ type=radio ]{
+    width: 10%;
+    padding: 12px 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+input[ type=submit ]{
+    width: 30%;
+    padding: 12px 20px;
+    margin-left: 140px;
+    margin-bottom: 2px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: gray;
+    color: white;
+}
+input:hover{
+    background-color: black;
+    color: white;
+}
+p{
+    color: white;
+    font-size: 1.2em;
+    margin-left: 15%;
+   
+}
+p a{
+    padding: 12px;
+    width: 50px;
+    background-color: black;
+    text-decoration: none;
+}
+p a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 30%
+}
+.ava{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left:calc(50% - 50px);
+    
+}
+.password{
+    
+}
